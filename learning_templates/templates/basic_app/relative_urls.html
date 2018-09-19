@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to the URL page</h1>
+    <a href="{% url 'basic_app:other' %}">The OTHER page</a>
+    <a href="{% url 'admin:index' %}">The ADMIN page</a>
+    <a href="{% url 'index' %}">The INDEX page</a>
+<!-- TRY re_path INSTEAD OF url
+-->
+  </body>
+</html>
